@@ -1,0 +1,804 @@
+[
+  {
+    "question": "Define Linear Regression.",
+    "answer": "Linear regression is a supervised learning algorithm that models the relationship between a dependent scalar variable and one or more explanatory variables by fitting a linear equation to observed data."
+  },
+  {
+    "question": "What is Linear Regression?",
+    "answer": "Linear regression is a supervised learning algorithm that models the relationship between a dependent scalar variable and one or more explanatory variables by fitting a linear equation to observed data."
+  },
+  {
+    "question": "Explain the concept of Linear Regression.",
+    "answer": "Linear regression is a supervised learning algorithm that models the relationship between a dependent scalar variable and one or more explanatory variables by fitting a linear equation to observed data."
+  },
+  {
+    "question": "Distinguish between Classification and Regression.",
+    "answer": "Classification predicts discrete class labels or categories, whereas regression predicts continuous numerical values based on input features."
+  },
+  {
+    "question": "What is a Support Vector Machine (SVM)?",
+    "answer": "An SVM is a supervised learning model that finds the optimal hyperplane in an N-dimensional space that maximizes the margin between data points of different classes."
+  },
+  {
+    "question": "Explain the 'Kernel Trick' in SVM.",
+    "answer": "The kernel trick involves transforming data into a higher-dimensional space using a mathematical function, allowing the SVM to find a linear separator for non-linearly separable data."
+  },
+  {
+    "question": "Define a Decision Tree.",
+    "answer": "A Decision Tree is a non-parametric supervised learning method used for classification and regression that maps observations about an item to conclusions about the item's target value using a flowchart-like structure."
+  },
+  {
+    "question": "What is Overfitting in machine learning?",
+    "answer": "Overfitting occurs when a model learns the noise and details in the training data to the extent that it negatively impacts the performance of the model on new, unseen data."
+  },
+  {
+    "question": "Explain Underfitting.",
+    "answer": "Underfitting happens when a model is too simple to capture the underlying structure of the data, resulting in poor performance on both the training and testing datasets."
+  },
+  {
+    "question": "What is Cross-Validation?",
+    "answer": "Cross-validation is a resampling technique used to evaluate machine learning models by partitioning data into subsets, training on some and validating on others to ensure the model generalizes well."
+  },
+  {
+    "question": "How is Model Selection performed?",
+    "answer": "Model selection is the process of choosing between different machine learning models or configurations by comparing their performance metrics on a validation set."
+  },
+  {
+    "question": "Define a Markov Decision Process (MDP).",
+    "answer": "An MDP is a mathematical framework for modeling decision-making in situations where outcomes are partly random and partly under the control of a decision-maker, defined by states, actions, rewards, and transitions."
+  },
+  {
+    "question": "Explain the concept of an MDP.",
+    "answer": "An MDP is a mathematical framework for modeling decision-making in situations where outcomes are partly random and partly under the control of a decision-maker, defined by states, actions, rewards, and transitions."
+  },
+  {
+    "question": "What is the Bellman Equation?",
+    "answer": "The Bellman Equation is a recursive formula that decomposes the value of a decision problem at a certain point in time into the payoff from the immediate choice and the value of the remaining decision problem."
+  },
+  {
+    "question": "What is Value Iteration?",
+    "answer": "Value iteration is a dynamic programming algorithm that computes the optimal value function by iteratively updating state values until they converge, from which the optimal policy is derived."
+  },
+  {
+    "question": "Define Policy Iteration.",
+    "answer": "Policy iteration is a reinforcement learning algorithm that alternates between evaluating a fixed policy and improving it by making greedy choices with respect to the current value function."
+  },
+  {
+    "question": "What is Q-Learning?",
+    "answer": "Q-learning is an off-policy reinforcement learning algorithm that learns the value of an action in a particular state without requiring a model of the environment."
+  },
+  {
+    "question": "Explain Q-Learning.",
+    "answer": "Q-learning is an off-policy reinforcement learning algorithm that learns the value of an action in a particular state without requiring a model of the environment."
+  },
+  {
+    "question": "Define SARSA.",
+    "answer": "SARSA (State-Action-Reward-State-Action) is an on-policy reinforcement learning algorithm that updates the Q-value based on the action actually taken by the current policy."
+  },
+  {
+    "question": "What is the main difference between Q-Learning and SARSA?",
+    "answer": "Q-learning is off-policy, meaning it updates values based on the maximum possible future reward, while SARSA is on-policy, updating values based on the actual action performed."
+  },
+  {
+    "question": "What are Policy Gradient methods?",
+    "answer": "Policy gradient methods are a class of reinforcement learning algorithms that optimize the policy directly by calculating the gradient of the expected reward with respect to the policy parameters."
+  },
+  {
+    "question": "Define the Bias-Variance tradeoff.",
+    "answer": "The bias-variance tradeoff is the conflict in trying to simultaneously minimize two sources of error: bias (error from erroneous assumptions) and variance (error from sensitivity to small fluctuations)."
+  },
+  {
+    "question": "What is a Confusion Matrix?",
+    "answer": "A confusion matrix is a table used to describe the performance of a classification model by showing the counts of true positives, true negatives, false positives, and false negatives."
+  },
+  {
+    "question": "Define Precision and Recall.",
+    "answer": "Precision measures the accuracy of positive predictions, while recall measures the ability of a model to find all relevant cases within a dataset."
+  },
+  {
+    "question": "Explain the F1-Score.",
+    "answer": "The F1-score is the harmonic mean of precision and recall, providing a single metric that balances both concerns, especially useful for imbalanced datasets."
+  },
+  {
+    "question": "What is Mean Squared Error (MSE)?",
+    "answer": "MSE is a regression evaluation metric that calculates the average of the squares of the errors—that is, the average squared difference between the estimated values and the actual value."
+  },
+  {
+    "question": "How do computational costs affect model choice?",
+    "answer": "Computational costs, including time complexity and memory usage during training and inference, dictate whether a model is feasible for real-time applications or large-scale datasets."
+  },
+  {
+    "question": "Provide a real-world application of SVM in finance.",
+    "answer": "SVMs are frequently used in credit scoring and financial distress prediction to classify loan applicants as 'low risk' or 'high risk' based on historical financial attributes."
+  },
+  {
+    "question": "How is Reinforcement Learning used in algorithmic trading?",
+    "answer": "In trading, RL agents learn to execute buy or sell orders by maximizing cumulative financial returns through interaction with market price data and order book signals."
+  },
+  {
+    "question": "Why is 'pruning' used in Decision Trees?",
+    "answer": "Pruning is a technique used to reduce the size of decision trees by removing sections of the tree that provide little power to classify instances, thereby preventing overfitting."
+  },
+  {
+    "question": "What is the primary goal of Classification?",
+    "answer": "The primary goal of classification is to predict the categorical class labels of new instances based on a model built from a training dataset with known labels."
+  },
+  {
+    "question": "Explain the objective of Classification.",
+    "answer": "The primary goal of classification is to predict the categorical class labels of new instances based on a model built from a training dataset with known labels."
+  },
+  {
+    "question": "Define the objective of a Classification task.",
+    "answer": "The primary goal of classification is to predict the categorical class labels of new instances based on a model built from a training dataset with known labels."
+  },
+  {
+    "question": "What is a Hyperplane in the context of SVM?",
+    "answer": "A hyperplane is a decision boundary that separates different classes in a high-dimensional space; in a 2D space, it is a line, while in 3D, it is a flat plane."
+  },
+  {
+    "question": "Define 'Margin' in Support Vector Machines.",
+    "answer": "The margin is the distance between the separating hyperplane and the nearest data points from either class, known as support vectors."
+  },
+  {
+    "question": "What is Information Gain in Decision Trees?",
+    "answer": "Information Gain is a metric based on entropy used to determine which feature provides the most useful information about the target class when splitting a node."
+  },
+  {
+    "question": "Define Gini Impurity.",
+    "answer": "Gini Impurity is a measure used in Decision Trees to quantify how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset."
+  },
+  {
+    "question": "What are the coefficients in Linear Regression?",
+    "answer": "Coefficients are the weights assigned to each input feature that represent the strength and direction of the relationship between that feature and the target variable."
+  },
+  {
+    "question": "Define Ordinary Least Squares (OLS).",
+    "answer": "OLS is a method for estimating the parameters in a linear regression model by minimizing the sum of the squares of the vertical deviations between each data point and the fitted line."
+  },
+  {
+    "question": "What is the 'Reward Function' in Reinforcement Learning?",
+    "answer": "A reward function is a numerical signal sent from the environment to the agent that defines the goal of the RL problem by quantifying the immediate success of an action."
+  },
+  {
+    "question": "Explain the Exploration-Exploitation trade-off.",
+    "answer": "Exploration involves trying new actions to discover their rewards, while exploitation involves choosing the best-known actions to maximize immediate reward; balancing them is crucial for effective learning."
+  },
+  {
+    "question": "Define a Policy in Reinforcement Learning.",
+    "answer": "A policy is a mapping or strategy that an agent uses to determine the next action based on the current state of the environment."
+  },
+  {
+    "question": "What is the difference between Model-Based and Model-Free RL?",
+    "answer": "Model-based RL relies on a known or learned transition model of the environment, whereas model-free RL learns directly from experience without modeling environment dynamics."
+  },
+  {
+    "question": "What is the Discount Factor (Gamma)?",
+    "answer": "The discount factor is a value between 0 and 1 that determines the present value of future rewards, ensuring the agent prioritizes immediate rewards over distant ones."
+  },
+  {
+    "question": "Define the state-value function V(s).",
+    "answer": "The state-value function V(s) estimates the expected cumulative future reward an agent can obtain starting from state 's' and following a specific policy."
+  },
+  {
+    "question": "What is the action-value function Q(s, a)?",
+    "answer": "The action-value function Q(s, a) estimates the expected cumulative future reward an agent can obtain by taking action 'a' in state 's' and then following a specific policy."
+  },
+  {
+    "question": "Explain the REINFORCE algorithm.",
+    "answer": "REINFORCE is a fundamental policy gradient algorithm that updates policy parameters in the direction of the gradient of the expected return using Monte Carlo sampling."
+  },
+  {
+    "question": "What is K-Fold Cross-Validation?",
+    "answer": "K-Fold Cross-Validation splits the dataset into 'k' equal parts, training the model 'k' times, each time using a different fold as the validation set and the remaining folds as training data."
+  },
+  {
+    "question": "Define 'Training Error' vs 'Generalization Error'.",
+    "answer": "Training error is the error a model makes on the data it was trained on, while generalization error is the expected error on new, previously unseen data."
+  },
+  {
+    "question": "What is the purpose of a Learning Curve?",
+    "answer": "A learning curve plots training and validation performance over time or dataset size to diagnose whether a model suffers from high bias (underfitting) or high variance (overfitting)."
+  },
+  {
+    "question": "Define 'Regularization' in machine learning.",
+    "answer": "Regularization is a technique used to prevent overfitting by adding a penalty term to the cost function that discourages overly complex models."
+  },
+  {
+    "question": "What is the computational complexity of training an SVM?",
+    "answer": "The training complexity of a standard SVM typically ranges between O(n^2) and O(n^3) relative to the number of training samples, making it costly for very large datasets."
+  },
+  {
+    "question": "Define the 'Area Under the ROC Curve' (AUC-ROC).",
+    "answer": "AUC-ROC is a performance metric for classification at various threshold settings, representing the probability that the model ranks a random positive example higher than a random negative one."
+  },
+  {
+    "question": "How do you handle high computational costs in Decision Trees?",
+    "answer": "Costs are managed by limiting tree depth, setting a minimum number of samples per leaf, or using feature sampling to reduce the number of potential splits evaluated."
+  },
+  {
+    "question": "Give an application of Linear Regression in the real estate market.",
+    "answer": "Linear regression is used to predict property prices based on features such as square footage, number of bedrooms, location, and the age of the house."
+  },
+  {
+    "question": "What is an 'Agent' in Reinforcement Learning?",
+    "answer": "An agent is the learner or decision-maker that interacts with the environment, observes states, and takes actions to maximize cumulative rewards."
+  },
+  {
+    "question": "What is an 'Agent' in the RL framework?",
+    "answer": "An agent is the learner or decision-maker that interacts with the environment, observes states, and takes actions to maximize cumulative rewards."
+  },
+  {
+    "question": "Define the Reinforcement Learning 'Agent'.",
+    "answer": "An agent is the learner or decision-maker that interacts with the environment, observes states, and takes actions to maximize cumulative rewards."
+  },
+  {
+    "question": "Explain 'Stochastic' vs 'Deterministic' environments in MDPs.",
+    "answer": "In a deterministic environment, an action in a state always leads to the same next state; in a stochastic environment, the next state is determined by a probability distribution."
+  },
+  {
+    "question": "What is 'Feature Scaling' and why is it important for SVM?",
+    "answer": "Feature scaling normalizes the range of independent variables; it is critical for SVM because it relies on distance measurements between data points to define the hyperplane."
+  },
+  {
+    "question": "What is the role of Support Vectors in SVM?",
+    "answer": "Support vectors are the critical data points that lie closest to the decision boundary; they are the only points that determine the position and orientation of the hyperplane."
+  },
+  {
+    "question": "Explain the significance of Support Vectors.",
+    "answer": "Support vectors are the critical data points that lie closest to the decision boundary; they are the only points that determine the position and orientation of the hyperplane."
+  },
+  {
+    "question": "Define Support Vectors in the context of SVM.",
+    "answer": "Support vectors are the critical data points that lie closest to the decision boundary; they are the only points that determine the position and orientation of the hyperplane."
+  },
+  {
+    "question": "How does a Decision Tree handle non-linear relationships?",
+    "answer": "Decision trees handle non-linearity by recursively partitioning the feature space into orthogonal axis-aligned regions, allowing them to capture complex patterns without assuming a linear functional form."
+  },
+  {
+    "question": "What is the 'Residual' in Linear Regression?",
+    "answer": "A residual is the difference between the observed value of the dependent variable and the value predicted by the regression model for a specific data point."
+  },
+  {
+    "question": "Define the 'Residual' term.",
+    "answer": "A residual is the difference between the observed value of the dependent variable and the value predicted by the regression model for a specific data point."
+  },
+  {
+    "question": "What is the Transition Probability in an MDP?",
+    "answer": "The transition probability defines the likelihood of moving from a current state to a specific next state given a particular action performed by the agent."
+  },
+  {
+    "question": "Explain the concept of 'Greedy Policy'.",
+    "answer": "A greedy policy is a strategy where the agent always selects the action that is estimated to yield the highest immediate reward or value based on current knowledge."
+  },
+  {
+    "question": "Define the 'Greedy Policy' approach.",
+    "answer": "A greedy policy is a strategy where the agent always selects the action that is estimated to yield the highest immediate reward or value based on current knowledge."
+  },
+  {
+    "question": "What is 'Temporal Difference' (TD) learning?",
+    "answer": "TD learning is a model-free reinforcement learning method that updates value estimates based on the difference between successive predictions rather than waiting for the final outcome."
+  },
+  {
+    "question": "Describe 'Bootstrapping' in Reinforcement Learning.",
+    "answer": "Bootstrapping refers to updating a value estimate for a state based on the previously learned estimates of successor states, rather than actual complete returns."
+  },
+  {
+    "question": "What is the difference between Batch and Online learning?",
+    "answer": "Batch learning processes the entire dataset at once to update the model, while online learning updates the model incrementally as new data points arrive."
+  },
+  {
+    "question": "Define the 'Hold-out Method'.",
+    "answer": "The hold-out method is a basic model evaluation technique where the dataset is split into two disjoint sets: a training set to build the model and a testing set to estimate its performance."
+  },
+  {
+    "question": "Explain the 'Hold-out Method' of validation.",
+    "answer": "The hold-out method is a basic model evaluation technique where the dataset is split into two disjoint sets: a training set to build the model and a testing set to estimate its performance."
+  },
+  {
+    "question": "What is 'Entropy' in the context of Decision Trees?",
+    "answer": "Entropy is a measure of impurity or randomness in a group of examples; a split that results in lower entropy indicates a more homogeneous and informative partition."
+  },
+  {
+    "question": "Define the 'Slack Variable' in Soft-Margin SVM.",
+    "answer": "Slack variables are introduced in SVM to allow for some misclassifications in the training data, enabling the algorithm to find a feasible hyperplane for datasets that are not perfectly linearly separable."
+  },
+  {
+    "question": "What is 'R-squared' in Regression?",
+    "answer": "R-squared is a statistical measure that represents the proportion of the variance for a dependent variable that is explained by the independent variables in a regression model."
+  },
+  {
+    "question": "Define the 'R-squared' metric.",
+    "answer": "R-squared is a statistical measure that represents the proportion of the variance for a dependent variable that is explained by the independent variables in a regression model."
+  },
+  {
+    "question": "What is 'Multi-collinearity'?",
+    "answer": "Multi-collinearity occurs in regression when two or more independent variables are highly correlated, making it difficult to isolate the individual effect of each variable on the target."
+  },
+  {
+    "question": "Explain the 'Experience Replay' in Q-learning.",
+    "answer": "Experience replay is a technique where an agent stores past experiences in a buffer and samples from them randomly to update the Q-values, reducing correlation between consecutive samples."
+  },
+  {
+    "question": "What is a 'Terminal State' in RL?",
+    "answer": "A terminal state is a specific state in an episodic task that represents the end of an episode, after which no further actions can be taken and rewards cease."
+  },
+  {
+    "question": "Define the 'Terminal State'.",
+    "answer": "A terminal state is a specific state in an episodic task that represents the end of an episode, after which no further actions can be taken and rewards cease."
+  },
+  {
+    "question": "What is 'Feature Importance' in Decision Trees?",
+    "answer": "Feature importance is a score assigned to each input feature based on how much it contributes to reducing the overall impurity (like Gini or Entropy) across all nodes in the tree."
+  },
+  {
+    "question": "Define 'Sensitivity' and 'Specificity'.",
+    "answer": "Sensitivity (True Positive Rate) measures the proportion of actual positives correctly identified, while Specificity (True Negative Rate) measures the proportion of actual negatives correctly identified."
+  },
+  {
+    "question": "What is the 'Curse of Dimensionality'?",
+    "answer": "The curse of dimensionality refers to various phenomena that arise when analyzing data in high-dimensional spaces that do not occur in low-dimensional settings, often leading to increased computational cost and overfitting."
+  },
+  {
+    "question": "Explain 'Softmax' in the context of Policy Gradients.",
+    "answer": "Softmax is a function used to convert raw action scores into a probability distribution over discrete actions, ensuring the policy is differentiable and exploratory."
+  },
+  {
+    "question": "What is 'Root Mean Squared Error' (RMSE)?",
+    "answer": "RMSE is the square root of the average of squared differences between prediction and actual observation, providing an error metric in the same units as the target variable."
+  },
+  {
+    "question": "Define 'Root Mean Squared Error'.",
+    "answer": "RMSE is the square root of the average of squared differences between prediction and actual observation, providing an error metric in the same units as the target variable."
+  },
+  {
+    "question": "What are 'Epsilon-Greedy' actions?",
+    "answer": "Epsilon-greedy is a simple method to balance exploration and exploitation by choosing a random action with probability epsilon and the best-known action with probability 1-epsilon."
+  },
+  {
+    "question": "Explain 'Epsilon-Greedy' exploration.",
+    "answer": "Epsilon-greedy is a simple method to balance exploration and exploitation by choosing a random action with probability epsilon and the best-known action with probability 1-epsilon."
+  },
+  {
+    "question": "How is 'Grid Search' used in model selection?",
+    "answer": "Grid search is a systematic process of tuning hyperparameters by exhaustively searching through a manually specified subset of the hyperparameter space of a learning algorithm."
+  },
+  {
+    "question": "What is 'Mean Absolute Error' (MAE)?",
+    "answer": "MAE is a regression metric that calculates the average of the absolute differences between the predicted values and the actual values, making it more robust to outliers than MSE."
+  },
+  {
+    "question": "Define 'Mean Absolute Error'.",
+    "answer": "MAE is a regression metric that calculates the average of the absolute differences between the predicted values and the actual values, making it more robust to outliers than MSE."
+  },
+  {
+    "question": "What is 'Overfitting' in Decision Trees?",
+    "answer": "In decision trees, overfitting occurs when the tree becomes too deep and complex, capturing noise or outliers in the training data rather than the underlying general pattern."
+  },
+  {
+    "question": "Explain 'Variance' in machine learning.",
+    "answer": "Variance refers to the model's sensitivity to small fluctuations in the training set; high variance can cause a model to model the random noise in the training data (overfitting)."
+  },
+  {
+    "question": "What is 'Bias' in machine learning?",
+    "answer": "Bias is the error introduced by approximating a real-life problem with a simplified model; high bias can cause the algorithm to miss relevant relations (underfitting)."
+  },
+  {
+    "question": "Define 'Model Generalization'.",
+    "answer": "Generalization is the ability of a machine learning model to accurately predict outcomes for new, previously unseen data based on the patterns it learned during training."
+  },
+  {
+    "question": "What is the 'State Space' in RL?",
+    "answer": "The state space is the set of all possible configurations or situations the environment can be in that are relevant to the agent's decision-making process."
+  },
+  {
+    "question": "How is RL used in robotics?",
+    "answer": "In robotics, RL is used to teach machines complex motor skills, such as walking or grasping objects, by rewarding successful movements and penalizing collisions or failures."
+  },
+{
+  "question": "What is 'One-Hot Encoding'?",
+  "answer": "One-hot encoding is a process by which categorical variables are converted into a binary vector representation, which is necessary for algorithms like Linear Regression that require numerical input."
+},
+  {
+    "question": "What is the 'Large Margin Intuition' in SVM?",
+    "answer": "The large margin intuition is the principle that a model with the widest possible separation between classes is more robust to noise and generalizes better to unseen data compared to one with a narrow margin."
+  },
+  {
+    "question": "Why is the F1-score preferred over Accuracy in financial fraud detection?",
+    "answer": "In fraud detection, classes are highly imbalanced; accuracy is misleadingly high if the model predicts 'no fraud' for everyone, while F1-score forces a balance between capturing actual fraud (recall) and avoiding false accusations (precision)."
+  },
+  {
+    "question": "When should you use Lasso Regression over standard Linear Regression?",
+    "answer": "Lasso should be used when you suspect only a subset of features are relevant, as its L1 penalty performs automatic feature selection by shrinking the coefficients of less important variables to exactly zero."
+  },
+  {
+    "question": "Explain the 'Exploration Decay' strategy in Q-learning.",
+    "answer": "Exploration decay involves starting with a high epsilon value to aggressively explore the environment and gradually reducing it over time to shift the agent's focus toward exploiting the optimal policy it has learned."
+  },
+  {
+    "question": "What is the computational bottleneck of Value Iteration in large state spaces?",
+    "answer": "The bottleneck is the 'curse of dimensionality,' where the number of states grows exponentially with the number of state variables, making the synchronous update of every state's value computationally prohibitive."
+  },
+  {
+    "question": "How does 'Bootstrapping' differ between SARSA and Q-learning?",
+    "answer": "SARSA bootstraps using the value of the action actually chosen by the current policy (on-policy), while Q-learning bootstraps using the value of the best possible next action regardless of the policy (off-policy)."
+  },
+  {
+    "question": "Explain the 'Variance' problem in Policy Gradient methods.",
+    "answer": "Policy gradients often suffer from high variance because they rely on Monte Carlo returns, which can fluctuate significantly based on the stochasticity of the environment and the policy, leading to unstable training."
+  },
+  {
+    "question": "Why is 'Random Forest' often preferred over a single 'Decision Tree'?",
+    "answer": "A single decision tree is prone to high variance and overfitting; Random Forest reduces this by averaging the predictions of multiple trees trained on different data subsets, improving generalization."
+  },
+  {
+    "question": "Define 'Homoscedasticity' in Linear Regression.",
+    "answer": "Homoscedasticity is the assumption that the variance of the residual terms is constant across all levels of the independent variables, which is required for the OLS estimates to be efficient."
+  },
+  {
+    "question": "What happens to an SVM when the regularization parameter 'C' is set to a very large value?",
+    "answer": "A very large 'C' value penalizes misclassifications heavily, forcing the model to create a complex decision boundary with a small margin, which often leads to overfitting the training data."
+  },
+  {
+    "question": "When is 'Policy Iteration' generally faster than 'Value Iteration'?",
+    "answer": "Policy iteration often converges in fewer iterations because the policy typically becomes optimal long before the value function has converged to its exact final values."
+  },
+  {
+    "question": "What is the 'Credit Assignment Problem' in Reinforcement Learning?",
+    "answer": "The credit assignment problem is the difficulty of determining which specific action in a long sequence of moves was responsible for an eventually received reward or penalty."
+  },
+  {
+    "question": "Explain the role of 'Baseline' in Policy Gradient algorithms.",
+    "answer": "A baseline is a value (usually the state-value) subtracted from the cumulative return to reduce the variance of the gradient estimate without changing its expected value, making learning more stable."
+  },
+  {
+    "question": "What is 'Nested Cross-Validation' and when is it used?",
+    "answer": "Nested cross-validation uses an inner loop for hyperparameter tuning and an outer loop for error estimation; it is used to provide an unbiased estimate of the model's generalization performance."
+  },
+  {
+    "question": "Define the 'Hinge Loss' function.",
+    "answer": "Hinge loss is the loss function used primarily for SVMs; it remains zero for correctly classified points outside the margin and increases linearly for points that violate the margin or are misclassified."
+  },
+  {
+    "question": "How does 'Cost-Sensitive Learning' apply to bank loan defaults?",
+    "answer": "It assigns a higher penalty to False Negatives (missing a potential defaulter) than to False Positives (rejecting a safe borrower), aligning the model's optimization with the bank's risk-aversion."
+  },
+  {
+    "question": "Why do we use the 'Adjusted R-squared' instead of 'R-squared'?",
+    "answer": "Adjusted R-squared accounts for the number of predictors in the model, penalizing the addition of irrelevant variables that might artificially inflate the standard R-squared value."
+  },
+  {
+    "question": "What is an 'Off-Policy' algorithm?",
+    "answer": "An off-policy algorithm learns the value of the optimal policy independently of the agent's actions, often by following a separate behavior policy to explore the environment."
+  },
+  {
+    "question": "What is an 'Off-Policy' Reinforcement Learning algorithm?",
+    "answer": "An off-policy algorithm learns the value of the optimal policy independently of the agent's actions, often by following a separate behavior policy to explore the environment."
+  },
+  {
+    "question": "Define the concept of an 'Off-Policy' method.",
+    "answer": "An off-policy algorithm learns the value of the optimal policy independently of the agent's actions, often by following a separate behavior policy to explore the environment."
+  },
+  {
+    "question": "Explain 'Data Leakage' in the context of cross-validation.",
+    "answer": "Data leakage occurs when information from the test or validation set 'leaks' into the training process—for example, by calculating the mean for scaling before splitting the data—leading to overoptimistic results."
+  },
+  {
+    "question": "What is the 'Bellman Optimality Equation'?",
+    "answer": "It is a special case of the Bellman equation that states the value of a state under an optimal policy must equal the expected return for the best action from that state."
+  },
+  {
+    "question": "How do 'Decision Trees' handle missing values during training?",
+    "answer": "Trees can handle missing values by using surrogate splits (finding an alternative feature that mimics the split) or by sending the instance down both branches with weights proportional to the training distribution."
+  },
+  {
+    "question": "What is 'Elastic Net' Regression?",
+    "answer": "Elastic Net is a regularized regression method that combines both L1 (Lasso) and L2 (Ridge) penalties, making it effective when there are multiple correlated features."
+  },
+  {
+    "question": "Why is SVM considered a 'Memory-Efficient' algorithm?",
+    "answer": "SVM is memory-efficient because the final decision function only depends on the subset of training points called support vectors, rather than the entire dataset."
+  },
+  {
+    "question": "Explain 'Stationarity' in the context of MDPs.",
+    "answer": "Stationarity assumes that the environment's transition probabilities and reward functions do not change over time, allowing the agent to converge toward a fixed optimal policy."
+  },
+  {
+    "question": "What is 'Log Loss' (Cross-Entropy Loss)?",
+    "answer": "Log loss is a performance metric for classification where the penalty is logarithmic, rewarding models for being confident and correct, and heavily penalizing confident but wrong predictions."
+  },
+  {
+    "question": "How does Reinforcement Learning handle 'Non-Stationary' rewards?",
+    "answer": "RL handles non-stationarity by using a constant step-size parameter in updates, giving more weight to recent rewards and allowing the agent to adapt as the environment changes."
+  },
+  {
+    "question": "What is 'Information Gain Ratio'?",
+    "answer": "The gain ratio is a modification of Information Gain that penalizes features with a large number of distinct values to prevent the tree from over-partitioning the data into small, uninformative branches."
+  },
+  {
+    "question": "Explain the 'Greedy in the Limit with Infinite Exploration' (GLIE) property.",
+    "answer": "GLIE is a property of RL algorithms ensuring that all state-action pairs are visited infinitely often and that the policy eventually converges to a greedy policy."
+  }
+,
+{
+  "question": "What is 'Primal' vs 'Dual' formulation in SVM?",
+    "answer": "The primal formula solves for weights directly and is efficient for many observations, while the dual formula relies on dot products of samples, making it essential for applying the kernel trick in high-dimensional spaces."
+  },
+  {
+    "question": "How does the 'SVD' (Singular Value Decomposition) relate to Linear Regression?",
+    "answer": "SVD is used in the numerical calculation of the Moore-Penrose pseudoinverse, allowing for a stable solution to the OLS problem even when the feature matrix is rank-deficient or nearly singular."
+  },
+  {
+    "question": "Define 'Bootstrapping' specifically within the context of Decision Trees.",
+    "answer": "Bootstrapping is a statistical resampling technique that involves creating multiple random subsets of the training data with replacement to train diverse models, which is the foundation of Bagging and Random Forests."
+  },
+  {
+    "question": "What is the 'Double Q-Learning' algorithm designed to solve?",
+    "answer": "Double Q-learning addresses the problem of maximization bias, where standard Q-learning overestimates action values because it uses the same samples to both select and evaluate an action."
+  },
+  {
+    "question": "Explain 'Experience Replay' and its benefit in RL.",
+    "answer": "Experience replay stores transitions in a buffer and samples them randomly to break temporal correlations in training data, which stabilizes the learning process and allows for better sample efficiency."
+  },
+  {
+    "question": "What is the 'Condition Number' in the context of Regression?",
+    "answer": "The condition number measures the sensitivity of the regression output to small changes in input data; a high condition number indicates multicollinearity and potential numerical instability in coefficient estimates."
+  },
+  {
+    "question": "Define 'Function Approximation' in Reinforcement Learning.",
+    "answer": "Function approximation involves using models like neural networks to represent value functions or policies instead of tables, enabling RL to generalize across continuous or very large state spaces."
+  },
+  {
+    "question": "What is the 'Kernel' in Support Vector Machines?",
+    "answer": "A kernel is a mathematical function that computes the inner product of two vectors in a high-dimensional feature space without explicitly calculating the coordinates in that space."
+  },
+  {
+    "question": "Define the 'Kernel' function in SVM.",
+    "answer": "A kernel is a mathematical function that computes the inner product of two vectors in a high-dimensional feature space without explicitly calculating the coordinates in that space."
+  },
+  {
+    "question": "Explain the role of 'Kernels' in SVM.",
+    "answer": "A kernel is a mathematical function that computes the inner product of two vectors in a high-dimensional feature space without explicitly calculating the coordinates in that space."
+  },
+  {
+    "question": "How do 'Decision Stumps' function?",
+    "answer": "A decision stump is a one-level decision tree that makes a prediction based on a single input feature; it is often used as a 'weak learner' in ensemble methods like AdaBoost."
+  },
+  {
+    "question": "What is 'Mean Absolute Percentage Error' (MAPE)?",
+    "answer": "MAPE is an evaluation metric for regression that expresses accuracy as a percentage, making it intuitive for financial forecasting where the scale of the target variable varies significantly."
+  },
+  {
+    "question": "Explain 'Soft Margin' in SVM.",
+    "answer": "A soft margin allows for some misclassification of training points to ensure a simpler decision boundary that generalizes better, controlled by the regularization parameter C."
+  },
+  {
+    "question": "What is 'Policy Improvement' in the context of DP?",
+    "answer": "Policy improvement is the process of updating the current policy by making it greedy with respect to the value function calculated during the policy evaluation step."
+  },
+  {
+    "question": "Define 'Episodic' vs 'Continuing' tasks in RL.",
+    "answer": "Episodic tasks have a natural end point (terminal state), while continuing tasks go on indefinitely, often requiring a discount factor to ensure the total expected reward remains finite."
+  },
+  {
+    "question": "What is 'Heteroscedasticity'?",
+    "answer": "Heteroscedasticity occurs when the variance of residuals is not constant across all levels of independent variables, violating OLS assumptions and leading to inefficient parameter estimates."
+  },
+  {
+    "question": "How does 'Feature Selection' differ from 'Dimensionality Reduction'?",
+    "answer": "Feature selection picks a subset of the original variables to keep, whereas dimensionality reduction transforms the data into a new, lower-dimensional space (e.g., using PCA)."
+  },
+  {
+    "question": "Explain the 'Bias' of a Linear Regression model.",
+    "answer": "The bias of linear regression stems from the assumption that the relationship between variables is strictly linear; if the true relationship is non-linear, the model will have high bias (underfit)."
+  },
+  {
+    "question": "What is the 'Actor-Critic' architecture in RL?",
+    "answer": "Actor-critic methods use two models: the 'Actor' proposes actions (policy gradient), and the 'Critic' evaluates those actions by estimating the value function (TD learning)."
+  },
+  {
+    "question": "Define 'Overfitting' specifically in an MDP context.",
+    "answer": "In RL, overfitting occurs when an agent learns a policy that works perfectly for a specific set of environment parameters but fails when minor changes occur in dynamics or rewards."
+  },
+  {
+    "question": "What is the 'One-Standard-Error Rule' in cross-validation?",
+    "answer": "It is a heuristic for model selection that suggests picking the simplest model whose error is within one standard error of the best-performing model to favor parsimony."
+  },
+  {
+    "question": "Explain 'Cost-Sensitive SVM'.",
+    "answer": "A cost-sensitive SVM applies different penalty weights to different classes, which is crucial in finance for tasks like credit default prediction where the cost of a False Negative is very high."
+  },
+  {
+    "question": "What is 'Gradient Descent' in the context of Regression?",
+    "answer": "Gradient descent is an iterative optimization algorithm used to minimize the cost function (like MSE) by updating model parameters in the opposite direction of the local gradient."
+  },
+  {
+    "question": "Define the 'Markov Property'.",
+    "answer": "The Markov property states that the future state depends only on the current state and action, and is independent of the sequence of states and actions that preceded it."
+  },
+  {
+    "question": "Explain the 'Markov Property'.",
+    "answer": "The Markov property states that the future state depends only on the current state and action, and is independent of the sequence of states and actions that preceded it."
+  },
+  {
+    "question": "What makes a process 'Markovian'?",
+    "answer": "The Markov property states that the future state depends only on the current state and action, and is independent of the sequence of states and actions that preceded it."
+  },
+  {
+    "question": "What is 'Pruning' in the context of Decision Trees?",
+    "answer": "Pruning is a technique to simplify a decision tree by removing nodes that use features with low predictive power, reducing the risk of overfitting the training data."
+  },
+  {
+    "question": "Define 'Pruning' for a Decision Tree model.",
+    "answer": "Pruning is a technique to simplify a decision tree by removing nodes that use features with low predictive power, reducing the risk of overfitting the training data."
+  },
+  {
+    "question": "What is 'Recursive Partitioning'?",
+    "answer": "Recursive partitioning is the process used by decision trees to split the data into smaller, more homogeneous subsets based on feature values until a stopping criterion is met."
+  },
+  {
+    "question": "Explain 'Exploitation' in Reinforcement Learning.",
+    "answer": "Exploitation is the strategy where the agent chooses the best action it currently knows to maximize the expected reward, rather than trying new actions to learn more."
+  }
+,
+{
+  "question": "What is the 'Kernel Trick' in Support Vector Machines?",
+    "answer": "The kernel trick is a method that allows SVMs to operate in a high-dimensional feature space without ever computing the coordinates of the data in that space, by using inner product functions."
+  },
+  {
+    "question": "Explain the 'Kernel Trick'.",
+    "answer": "The kernel trick is a method that allows SVMs to operate in a high-dimensional feature space without ever computing the coordinates of the data in that space, by using inner product functions."
+  },
+  {
+    "question": "Define the 'Kernel Trick' in SVM.",
+    "answer": "The kernel trick is a method that allows SVMs to operate in a high-dimensional feature space without ever computing the coordinates of the data in that space, by using inner product functions."
+  },
+  {
+    "question": "What is 'Partial Policy Evaluation'?",
+    "answer": "Partial policy evaluation is a technique in dynamic programming where the value function is updated only a few times (rather than until convergence) before moving to policy improvement, accelerating the overall process."
+  },
+  {
+    "question": "Explain 'Support Vector Regression' (SVR).",
+    "answer": "SVR is a version of SVM used for regression that tries to fit the error within a certain threshold (epsilon-insensitive tube) rather than minimizing the squared error, making it robust to outliers."
+  },
+  {
+    "question": "How does 'Cost-Complexity Pruning' work in Decision Trees?",
+    "answer": "Cost-complexity pruning finds a balance between a tree's error rate and its complexity by adding a penalty term for each additional leaf, effectively 'collapsing' branches that don't significantly reduce impurity."
+  },
+  {
+    "question": "What is 'Maximum Likelihood Estimation' (MLE) in Linear Regression?",
+    "answer": "MLE is a statistical method used to estimate the parameters of a regression model by finding the values that maximize the probability of observing the given data, which coincides with OLS under Gaussian noise."
+  },
+  {
+    "question": "Define 'Off-Policy' vs 'On-Policy' learning.",
+    "answer": "On-policy learning evaluates and improves the same policy used to make decisions (like SARSA), while off-policy learning learns a target policy while following a different behavior policy (like Q-Learning)."
+  },
+  {
+    "question": "Explain 'Off-Policy' and 'On-Policy' learning.",
+    "answer": "On-policy learning evaluates and improves the same policy used to make decisions (like SARSA), while off-policy learning learns a target policy while following a different behavior policy (like Q-Learning)."
+  },
+  {
+    "question": "What is the 'Deadly Triad' in Reinforcement Learning?",
+    "answer": "The 'deadly triad' refers to the combination of function approximation, bootstrapping, and off-policy learning, which can lead to instability and divergence in value function estimation."
+  },
+  {
+    "question": "How does 'L2 Regularization' (Ridge) affect model coefficients?",
+    "answer": "L2 regularization adds a penalty proportional to the square of the magnitude of coefficients, shrinking them towards zero but never making them exactly zero, which helps manage multicollinearity."
+  },
+  {
+    "question": "Explain the 'Eligibility Trace' in RL.",
+    "answer": "An eligibility trace is a temporary record of the occurrence of an event, such as visiting a state, used to bridge the gap between TD learning and Monte Carlo methods for faster credit assignment."
+  },
+  {
+    "question": "What is 'Multivariate Linear Regression'?",
+    "answer": "Multivariate linear regression is an extension of simple linear regression used to predict the value of a dependent variable based on the values of two or more independent variables."
+  },
+  {
+    "question": "Define 'Multivariate Linear Regression'.",
+    "answer": "Multivariate linear regression is an extension of simple linear regression used to predict the value of a dependent variable based on the values of two or more independent variables."
+  },
+  {
+    "question": "Explain 'Multivariate Linear Regression'.",
+    "answer": "Multivariate linear regression is an extension of simple linear regression used to predict the value of a dependent variable based on the values of two or more independent variables."
+  },
+  {
+    "question": "What is 'Logarithmic Transformation' in Regression?",
+    "answer": "Logarithmic transformation is applied to skewed data to linearize relationships and stabilize variance (homoscedasticity), making the data more suitable for linear regression modeling."
+  },
+  {
+    "question": "Define 'Gains Chart' in classification evaluation.",
+    "answer": "A gains chart is a visual tool used to evaluate the performance of a classification model by comparing the results of a random pick against the model's ability to identify target class members."
+  },
+  {
+    "question": "What is 'Stochastic Gradient Descent' (SGD)?",
+    "answer": "SGD is an optimization algorithm that updates model parameters using only a single random training example at each step, significantly reducing computational cost for large-scale datasets."
+  },
+  {
+    "question": "Define 'Stochastic Gradient Descent'.",
+    "answer": "SGD is an optimization algorithm that updates model parameters using only a single random training example at each step, significantly reducing computational cost for large-scale datasets."
+  },
+  {
+    "question": "Explain 'Stochastic Gradient Descent'.",
+    "answer": "SGD is an optimization algorithm that updates model parameters using only a single random training example at each step, significantly reducing computational cost for large-scale datasets."
+  },
+  {
+    "question": "What is 'Hard Margin' vs 'Soft Margin' in SVM?",
+    "answer": "A hard margin requires all data points to be outside the margin, while a soft margin allows some points to violate the boundary to achieve better generalization on noisy data."
+  },
+  {
+    "question": "How does 'Entropy' differ from 'Gini Impurity'?",
+    "answer": "Entropy is based on information theory and involves logarithmic calculations, making it computationally slower, while Gini impurity is based on the probability of misclassification and is faster to compute."
+  },
+  {
+    "question": "What is 'Policy Gradient' theorem?",
+    "answer": "The Policy Gradient theorem provides an analytic expression for the gradient of performance with respect to policy parameters, allowing for direct optimization of the policy without a value function."
+  },
+  {
+    "question": "Define 'Policy Gradient' theorem.",
+    "answer": "The Policy Gradient theorem provides an analytic expression for the gradient of performance with respect to policy parameters, allowing for direct optimization of the policy without a value function."
+  },
+  {
+    "question": "Explain 'Policy Gradient' theorem.",
+    "answer": "The Policy Gradient theorem provides an analytic expression for the gradient of performance with respect to policy parameters, allowing for direct optimization of the policy without a value function."
+  },
+  {
+    "question": "What is the 'Exploration Bonus' in RL?",
+    "answer": "An exploration bonus is an artificial reward added to rarely visited states or actions to encourage the agent to explore unknown parts of the environment systematically."
+  },
+  {
+    "question": "Define 'Leave-One-Out Cross-Validation' (LOOCV).",
+    "answer": "LOOCV is an extreme case of K-fold cross-validation where K equals the number of observations, training the model N times on N-1 samples to maximize the use of training data."
+  },
+  {
+    "question": "What is 'Interaction Effect' in Regression?",
+    "answer": "An interaction effect occurs when the effect of one independent variable on the dependent variable changes depending on the level of another independent variable."
+  },
+  {
+    "question": "Explain 'Interaction Effect' in Regression.",
+    "answer": "An interaction effect occurs when the effect of one independent variable on the dependent variable changes depending on the level of another independent variable."
+  },
+  {
+    "question": "Define 'Interaction Effect' in Regression.",
+    "answer": "An interaction effect occurs when the effect of one independent variable on the dependent variable changes depending on the level of another independent variable."
+  },
+  {
+    "question": "How is 'Dynamic Programming' applied to MDPs?",
+    "answer": "Dynamic programming is used to solve MDPs by breaking the problem into sub-problems and recursively computing the optimal value function using the Bellman equations."
+  },
+  {
+    "question": "What is 'Root Mean Square Error' (RMSE) sensitivity to outliers?",
+    "answer": "RMSE is highly sensitive to outliers because it squares the errors before averaging them, giving larger weight to high-magnitude errors compared to Mean Absolute Error (MAE)."
+  },
+  {
+    "question": "Define 'Binary Classification'.",
+    "answer": "Binary classification is a type of supervised learning task where the goal is to categorize input data into one of two distinct and mutually exclusive classes."
+  },
+  {
+    "question": "What is 'Multi-class Classification'?",
+    "answer": "Multi-class classification involves predicting a target variable that has more than two possible labels or categories, such as identifying handwritten digits (0-9)."
+  },
+  {
+    "question": "Explain 'Model Complexity' in Decision Trees.",
+    "answer": "Model complexity in trees is primarily determined by the depth of the tree and the number of terminal nodes; deeper trees capture more detail but are prone to overfitting."
+  },
+  {
+    "question": "What is the 'Objective Function' in SVM?",
+    "answer": "The objective function in SVM is to minimize the norm of the weight vector (maximizing the margin) subject to the constraint that all training points are correctly classified."
+  },
+  {
+    "question": "Define 'Learning Rate' in RL.",
+    "answer": "The learning rate (alpha) determines the extent to which new information overrides old information; a high value results in fast learning but potential instability."
+  },
+  {
+    "question": "What is a 'Greedy Strategy'?",
+    "answer": "A greedy strategy is a decision-making rule that selects the action that maximizes immediate reward based on current estimates, without considering long-term exploration."
+  },
+  {
+    "question": "Explain 'Feature Mapping' in SVM.",
+    "answer": "Feature mapping is the process of transforming input data into a higher-dimensional space where a linear separator can be found, often performed implicitly via kernels."
+  },
+  {
+    "question": "What is 'Coefficient of Determination'?",
+    "answer": "Also known as R-squared, it measures the percentage of the variance in the dependent variable that is predictable from the independent variables in a regression model."
+  }
+]

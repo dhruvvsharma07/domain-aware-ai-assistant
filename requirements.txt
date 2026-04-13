@@ -1,0 +1,9 @@
+streamlit
+transformers
+torch
+huggingface_hub
+scikit-learn
+pandas
+numpy
+python-dotenv
+pymongo
